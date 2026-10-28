@@ -1,6 +1,6 @@
 # Toward Compact and Adaptive Image Dehazing
 
-## Environment
+## :desktop_computer: Environment
 
 Tested with Python 3.10, PyTorch 2.1.0, and torchvision 0.16.0.
 
@@ -10,7 +10,7 @@ conda activate CoAPP
 pip install -r requirements.txt
 ```
 
-## Data preparation
+## :book: Data Preparation
 
 ```text
 datasets/
@@ -26,7 +26,7 @@ datasets/
     └── ...
 ```
 
-## Pretrained models and prompts
+## :floppy_disk: Pretrained Models and Prompts
 
 Download the training resources from [Baidu Netdisk](https://pan.baidu.com/s/1hINu3suhWb3wWVfUWoWlnQ?pwd=0519) (access code: `0519`) and
 place them as follows before running the adaptation stage:
@@ -37,7 +37,7 @@ clip_model/
 └── ViT-B-32.pt
 ```
 
-## Training
+## :hotsprings: Model Training
 
 ### 1. Train the teacher
 
@@ -76,7 +76,7 @@ bash training/reparam.sh \
   --output weight/CoAPP_trained.pth
 ```
 
-## Inference
+## :taxi: Model Testing
 
 Run inference from the project root using the supplied CoAPP weights:
 
@@ -110,7 +110,7 @@ bash eval.sh \
 Results are saved under the specified output directory: `visualization/` contains the generated PNG images, and `metrics/` contains `musiq_scores.csv` and `musiq_summary.json` when MUSIQ is enabled.
 
 
-## Acknowledgments
+## :clipboard: Acknowledgments
 
 This code builds on
 [DEA-Net](https://github.com/cecret3350/DEA-Net), and
