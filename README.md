@@ -111,9 +111,7 @@ Results are saved under the specified output directory: `visualization/` contain
 
 
 ## :clipboard: Acknowledgments
+We would like to extend our gratitude to the following implementations for their contributions to the development of CoA and CoA++:
 
-This code builds on
-[DEA-Net](https://github.com/cecret3350/DEA-Net), and
-[OpenAI CLIP](https://github.com/openai/CLIP).
-The learned prompt methodology follows
-[CLIP-LIT](https://github.com/ZhexinLiang/CLIP-LIT).
+- [CLIP-LIT](https://github.com/ZhexinLiang/CLIP-LIT.git) for providing the methodology for training pre-trained prompt pairs.
+- [DEA-Net](https://github.com/cecret3350/DEA-Net.git) for providing the re-parameterization technique.
