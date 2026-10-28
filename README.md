@@ -1,6 +1,4 @@
-# CoA++: Toward Compact and Adaptive Image Dehazing
-
-Training and inference code for CoA++.
+# Toward Compact and Adaptive Image Dehazing
 
 ## Environment
 
