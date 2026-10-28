@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+.venv/
+.env
+datasets/
+experiment/
+outputs/
+*.log
+*.tmp
+clip_model/*.pt
+clip_model/haze_prompt.pth
+clip_model/rain_prompt.pth
+weight/*.pth
+!weight/CoAPP.pth
