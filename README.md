@@ -110,6 +110,11 @@ bash eval.sh \
 Results are saved under the specified output directory: `visualization/` contains the generated PNG images, and `metrics/` contains `musiq_scores.csv` and `musiq_summary.json` when MUSIQ is enabled.
 
 
+### No-reference Evaluation
+
+For no-reference evaluation of dehazed images, please refer to [Dehaze-NR-Metrics](https://github.com/YanZhang-zy/Dehaze-NR-Metrics).
+It provides Python implementations of FADE, BIQME, and Entropy.
+
 ## :clipboard: Acknowledgments
 We would like to extend our gratitude to the following implementations for their contributions to the development of CoA and CoA++:
 
